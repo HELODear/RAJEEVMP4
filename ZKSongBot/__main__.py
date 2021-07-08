@@ -13,7 +13,7 @@ pm_start_text = """
 
 Send me /help for know my commands.
 
-➟ <b>Mαde by ▷ @ZauteKm</b>
+➟ <b>Mαde by ▷ @JEEV_YO</b>
 """
 
 help_text = """
@@ -23,7 +23,7 @@ help_text = """
 - /deezer <song name>: Download songs via Deezer
 - Send youtube url to my pm for download it on audio format
 
-➟ <b>Mαde by ▷ @ZauteKm</b>
+➟ <b>Mαde by ▷ @JEEV_YO</b>
 """
 
 @app.on_message(filters.command("start"))
@@ -35,12 +35,12 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-                    InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6')
+                    InlineKeyboardButton('👥 Group', url='https://t.me/MP3LELO/5'),
+                    InlineKeyboardButton('Channel 📢', url='https://t.me/MP3LELO/6')
                   ],[
-                    InlineKeyboardButton('🙄 Source', url='https://t.me/iZaute/7'),
-                    InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/iZaute/8'),
-                    InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+                    InlineKeyboardButton('🙄 Source', url='https://t.me/MP3LELO/7'),
+                    InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/MP3LELO/8'),
+                    InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/MP3LELO')
                   ],[
                     InlineKeyboardButton('✨ Subscribe Now YouTube ✨', url='https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ')
                 ]
@@ -55,5 +55,5 @@ async def start(client, message):
     await message.reply(help_text)
 
 app.start()
-LOGGER.info("ZKSongBot is online.")
+LOGGER.info("BABEANNA is online.")
 idle()
